@@ -89,13 +89,30 @@ footer {
     color: cornsilk;
 }
 
+.header-wrap {
+    background-color:rgb(255, 151, 166) ; /* Cor de fundo do header */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+    border-bottom: 2px solid #ddd; /* Linha abaixo do header */
+}
+
+.header-wrap h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.header-wrap h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
 .menu-links a {
-    margin-right: 50px;
-    color:blueviolet;
-    text-decoration: none;
-    transition: color 0.3s ease;
+    margin: 0 15px; /* Espaçamento entre os links */
+    /*text-decoration: none;  Remove o sublinhado */
+    color: darkslateblue; /* Cor do texto dos links */
 }
 
 .menu-links a:hover {
-    color:cornflowerblue;
+    color: #ff6347; /* Cor dos links ao passar o mouse */
 }
