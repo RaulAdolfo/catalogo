@@ -22,7 +22,7 @@ body {
 
 .carousel-item {
     min-width: 100%;
-    transition: 0.5s ease;
+    transition: 0.8s ease;
 }
 
 .carousel-item img {
@@ -53,31 +53,66 @@ body {
 }
 
 body {
-    background-color:lightpink;
+   background-color: rgb(255, 206, 213);
+    background-size: cover; /* Faz com que a imagem cubra todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
 h1 {
     color: cornsilk;
-    background-color: blueviolet;
+    background-color: rgb(255, 151, 166);
     padding: 10px;
     text-align: center; /*centraliza o texto*/
 }
 
 h2 {
-    color: cornsilk;
-    background-color:mediumslateblue;
+    color: darkslateblue;
+    /*background-color:rgb(255, 164, 178);*/
     padding: 10px;
     text-align: center; /*centraliza o texto*/
 }
 
 p {
-    color:indigo;
+    color:darkslateblue;
     padding: 10px;
     text-align: center; /*centraliza o texto*/
     font-weight: bold;
+
 }
 
-a {
-    text-align: center; /*centraliza o texto*/
+footer {
+    background-color:rgb(255, 151, 166);
+    text-align: center;
+    padding: 10px;
     font-weight: bold;
+    color: cornsilk;
+}
+
+.header-wrap {
+    background-color:rgb(255, 151, 166) ; /* Cor de fundo do header */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+    border-bottom: 2px solid #ddd; /* Linha abaixo do header */
+}
+
+.header-wrap h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.header-wrap h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.menu-links a {
+    margin: 0 15px; /* Espaçamento entre os links */
+    /*text-decoration: none;  Remove o sublinhado */
+    color: darkslateblue; /* Cor do texto dos links */
+}
+
+.menu-links a:hover {
+    color: #ff6347; /* Cor dos links ao passar o mouse */
 }
