@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+div#interface {
+    background-color: rgb(85, 27, 179, 0.3);
+    margin: 0px -10px 0px -10px;
+}
+
+div#interface h1#nomeloja {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        text-shadow: rgba(0,0,0,.6) 2px 2px 2px;
+}
+
+header#cabecalho {
+    background-color: #551bb3;
+    padding: 50px;
+    margin: 0px -10px 0px -10px;
+    text-align: center;
+}
+
+header#cabecalho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: rgba(0,0,0,.6) 2px 2px 2px;
+}
+
+header#cabecalho img#logo {
+    max-width: 180px;
+    max-height: 240px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    top: 10px;
+}
+
+nav#menu {
+    background-color: #551bb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0px -10px 0px -10px;
+    box-sizing: border-box;
+}
+
+nav#menu ul {
+    display: flex;
+    background-color: #551bb3 ;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+nav#menu li {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    margin-left: 60px;
+    
+}
+
+nav#menu a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+    display:inline;
+    text-decoration: none;
+    color: #a9f04d;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    background-color:  #6e3ac2;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+nav#menu a:hover {
+    color:#268fbe;
+}
+
+div#interface p {
+    margin: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    text-indent: 20pt;
+    padding: 20pt;
+}
+
+div#interface h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    text-align: center;
+    color: #268fbe;
+}
+
+footer {
+    background-color: #551bb3;
+    padding: 10px;
+    margin: 0px -10px 0px -10px;
+    text-align: center;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #a9f04d;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    color: #268fbe;
+}

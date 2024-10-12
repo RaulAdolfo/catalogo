@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+section#galeria {
+    margin: 0px -10px 0px -10px;
+}
+
+section#galeria h3 {
+    color: #268fbe;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px -10px 0px -10px;
+}
+
+section#galeria img {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgba(0,0,0,.6);
+    margin: 20px;
+    padding: 0px 0px 0px 60px;
+}
