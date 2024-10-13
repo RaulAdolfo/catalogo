@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+div#interface a {
+    text-decoration: none;
+}
+
+div#interface a:hover {
+    color: #268fbe;
+    transition: 0.3s;
+}

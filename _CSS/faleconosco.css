@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+section#faleconosco p {
+    margin-top: 5px;
+    padding: 5pt;
+}
+
+section#faleconosco a {
+    text-decoration: none;
+}
+
+section#faleconosco a:hover {
+    color: #268fbe;
+    transition: 0.3s;
+}

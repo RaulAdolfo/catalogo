@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 div#interface {
-    background-color: rgb(85, 27, 179, 0.3);
+    background-color: #ffffff;
     margin: 0px -10px 0px -10px;
 }
 
 div#interface h1#nomeloja {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #ffffff;
-        text-shadow: rgba(0,0,0,.6) 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, .6) 2px 2px 2px;
 }
 
 header#cabecalho {
@@ -21,7 +21,7 @@ header#cabecalho {
 header#cabecalho h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    text-shadow: rgba(0,0,0,.6) 2px 2px 2px;
+    text-shadow: rgba(0, 0, 0, .6) 2px 2px 2px;
 }
 
 header#cabecalho img#logo {
@@ -45,7 +45,7 @@ nav#menu {
 
 nav#menu ul {
     display: flex;
-    background-color: #551bb3 ;
+    background-color: #551bb3;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0;
@@ -56,24 +56,25 @@ nav#menu li {
     align-items: center;
     min-height: 48px;
     margin-left: 60px;
-    
+
 }
 
-nav#menu a{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+nav#menu a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    display:inline;
+    display: inline;
     text-decoration: none;
     color: #a9f04d;
     padding: 10px 20px 10px 20px;
     margin: auto;
-    background-color:  #6e3ac2;
+    background-color: #6e3ac2;
     font-weight: bolder;
     border-radius: 5px;
 }
 
 nav#menu a:hover {
-    color:#268fbe;
+    color: #268fbe;
+    transition: 0.3s;
 }
 
 div#interface p {
@@ -114,4 +115,5 @@ footer a {
 
 footer a:hover {
     color: #268fbe;
+    transition: 0.3s;
 }
