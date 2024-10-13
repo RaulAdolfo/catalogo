@@ -1,6 +1,6 @@
 # Catálogo de Amigurumis
 
-Bem-vindo ao repositório do site **Catálogo de Amigurumis**! Este projeto é um catálogo de produtos para amigurumis artesanais confeccionados por **Mainara C. S Adolfo**, com entrega para todo o país e feitos com linhas de alta qualidade da **Circulo**.
+Bem-vindo ao repositório do site **Catálogo de Amigurumis**! Este projeto é um catálogo de produtos para amigurumis artesanais confeccionados por **Mainara C. S. Adolfo**, com entrega para todo o país e feitos com linhas de alta qualidade da **Circulo**.
 
 ## Funcionalidades
 
