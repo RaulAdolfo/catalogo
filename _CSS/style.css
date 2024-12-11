@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div#interface {
-  background-color: #ffffff;
+  background-color: #dbdbdb;
   margin: 0px -10px 0px -10px;
 }
 
@@ -29,7 +29,7 @@ header#cabecalho img#logo {
   max-height: 240px;
   position: absolute;
   top: 0px;
-  left: 50px;
+  left: 10px;
   top: 10px;
 }
 
@@ -76,6 +76,11 @@ nav#menu a:hover {
   transition: 0.3s;
 }
 
+.descricao {
+  text-align: start;
+  text-align: start;
+}
+
 div#interface p {
   margin: 0px 10px 0px 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -94,28 +99,44 @@ div#interface h1 {
 div#interface h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  display: inline-block;
 }
 
 .item {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr; /* Define as linhas */
+  background-color: lightgray;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 10px;
   margin: 20px;
-}
+  }
+
+.foto {
+  max-width: 100%;
+  min-width: 10%;
+  border-radius: 5px;
+ }
 
 .preco {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
-  text-align: end;
+  display: grid;
+  height: 10px;
+  justify-self: end;
+  margin-top: 10px;
+  font-style: italic;
 }
 
 .comprar {
+  align-self: end; /* Alinha o botão ao final da área da grid */
+  justify-self: center; /* Centraliza horizontalmente */
   background: #a8f;
   color: #103;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-}
+  }
 
 .grid {
   display: grid;
